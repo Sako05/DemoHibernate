@@ -2,15 +2,12 @@ package com.example.demo.controllers;
 
 import com.example.demo.model.Product;
 import com.example.demo.repositories.ProductRepository;
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
+
 @RestController
 @RequestMapping(path = "/products")
 public class ProductController {
